@@ -1,0 +1,75 @@
+# Shogi Web App
+
+A modern Shogi (将棋) web application built with React and TypeScript. This project includes a responsive Shogi board, move history tracking, and a customizable UI using Tailwind CSS. Future improvements include AI integration, online multiplayer, and advanced rule enforcement.
+
+## Features
+
+* Interactive Shogi board with drag-and-drop functionality
+* Move history tracking
+* Game reset option
+* Beautiful UI with Tailwind CSS
+* Modular component structure for easy expansion
+
+## Getting Started
+
+### Prerequisites
+
+* Node.js (v18 or higher)
+* npm or yarn
+
+### Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/your-username/shogi-web-app.git
+cd shogi-web-app
+```
+
+2. Install dependencies:
+
+```bash
+npm install
+```
+
+3. Run the development server:
+
+```bash
+npm run dev
+```
+
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+## Project Structure
+
+```
+shogi-web-app/
+├── src/
+│   ├── App.tsx
+│   ├── components/
+│   │   ├── ShogiBoard.tsx
+│   │   └── MoveHistory.tsx
+│   └── styles/
+│       └── main.css
+├── public/
+│   └── index.html
+├── README.md
+├── package.json
+└── tsconfig.json
+```
+
+## Future Improvements
+
+* AI integration (e.g., using Shogi engines like YaneuraOu)
+* Online multiplayer mode
+* Detailed rule enforcement (e.g., 二歩, 打ち歩詰め, 千日手)
+* User profiles and ranking system
+* Game analytics and move recommendations
+
+## Contributing
+
+Feel free to open issues or submit pull requests. All contributions are welcome!
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
